@@ -1,0 +1,103 @@
+navbar {
+  width: 1000%;
+  background-color: black;
+  overflow: auto;
+}
+
+
+.navbar a {
+  float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  color: lightyellow;
+  text-decoration: none;
+  font-size: 20px;
+  width: 12%; 
+  text-align: center; 
+}
+
+
+.navbar a:hover {
+  background-color: #5ab58d;
+   
+}
+
+
+.navbar a.active {
+  background-color: #5ab58d;
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: left;
+    display: block;
+    width: 1000%;
+    text-align: left; 
+  }
+}
+
+img center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {color:black}
+
+
+
+
+
+.collapsible {
+  background-color: #777;
+  color: #beccaf;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+body {background-color: #beccaf;padding-left:100px;padding-right:0px;}
+        h1 {font-size:50px;color:black;font-family:fantasy;text-align:left; padding-left: 200px; padding-top: 60px;}
+        h2 {font-size:30px;color:black;font-family:serif;text-align:center; padding-left: 200px; padding-right: 200px}
+        h3 {font-size:50px;color:black;background-color: darkgrey;text-align:center; padding-left: 100px; padding-right: 200px}
+        h4 {font-size:28px;color:black;font-family:serif;text-align:left; padding-right: 500px}
+        h5 {font-size:30px;color:black;font-family:veranda;text-align:center; padding-left: 200px; padding-right: 200px}
+        h6 {font-size:28px;color:black;font-family: veranda;text-align:center; padding-left: 300px; padding-right: 300px}
+        h7 {font-size:30px;color:black;font-family: serif;text-align:center; padding-left: 0px; padding-right: 1000px}
+        h8 {font-size:50px;color:black;background-color: darkgrey;text-align:center; padding-left: 100px; padding-right: 100px}
+h9 {font-size:50px;color:black;text-align:center;}
+        p {font-size:30px;color:black;font-family:serif;text-align:left;}
+        img {max-width:100%;}
+        ul {font-size:30px;color:black;font-family: serif;text-align: left; padding-right: 500px}
+        footer {font-size: 20px;color:black;font-family: sans-serif;text-align: center}
